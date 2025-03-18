@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Light</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <button class="back-btn">⬅</button>
+        <h2>Add new Light</h2>
+
+        <div class="form-group">
+            <label>Light name :</label>
+            <input type="text" placeholder="Enter light name">
+        </div>
+
+        <div class="form-group">
+            <label>Select room :</label>
+            <select>
+                <option>Select a room</option>
+                <option>Living Room</option>
+                <option>Bedroom</option>
+                <option>Kitchen</option>
+            </select>
+            <span class="create-room">or <a href="#">create new room</a></span>
+        </div>
+
+        <div class="form-group more-options">
+            <span>More Options ⌄</span>
+        </div>
+
+        <div class="form-group">
+            <label>Timing :</label>
+            <input type="radio" id="manual" name="timing" checked>
+            <label for="manual">Manual</label>
+            <input type="radio" id="auto" name="timing">
+            <label for="auto">Auto</label>
+        </div>
+
+        <div class="time-box">
+            <div class="form-group">
+                <label>Start time :</label>
+                <input type="time">
+            </div>
+            <div class="form-group">
+                <label>End time :</label>
+                <input type="time">
+            </div>
+            <button class="save-btn">Save</button>
+        </div>
+
+        <button class="add-light-btn">Add Light</button>
+
+        <footer>
+            www.smartlights.com
+        </footer>
+    </div>
+
+</body>
+</html>
